@@ -1,0 +1,18 @@
+body {
+    background-color: lightskyblue;
+}
+
+p {
+    margin-top: 0px;
+}
+
+#me-wrapper {
+    margin-top: 60px;
+} 
+#my-image {
+    overflow: hidden;
+    img {
+        width: 100% !important;
+        height: auto;
+    }
+}
