@@ -3,6 +3,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/materialize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <script src="js/jquery.js"></script>
         <script src="js/materialize.js"></script>
@@ -24,19 +25,18 @@
 
         <section id="me" class="section row">
             <div id="me-wrapper" class="col s12 m10 l8 offset-m1 offset-l2">
-                <div id="my-image" class="col s4">
+                <div id="my-image" class="col s8 m6 offset-s2">
                     <img alt="my works" src="http://lorempixel.com/300/300/nature">
                 </div>
-                <div class="col s8">
+                <div class="col s8 m6 offset-s2">
                     <p class="flow-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis, orci a sodales iaculis, justo sapien feugiat justo, quis egestas felis elit vel purus. 
-                        Fusce fringilla massa sit amet erat congue, et pretium libero finibus. Integer a feugiat odio. Fusce iaculis et dolor nec viverra. Sed quis elit elit. Praesent sed massa nec odio laoreet iaculis.
-                        Vestibulum convallis vehicula consequat.Sed faucibus elit at est pharetra sollicitudin.
-                    </p>
+                        Fusce fringilla massa sit amet erat congue, et pretium libero finibus.
                 </div>
             </div> <!-- End me-wrapper -->
         </section> <!-- End Me -->
-
+        
         <section id="experience" class="section row">
+            <h3>Past Works</h3>
             <div class="col s6 m4">
                 <div class="card">
                     <div class="card-image">
@@ -109,16 +109,45 @@
                 </div>
             </div>
         </section> <!-- End exprerience -->
+        
+        <section id="contact" class="section row">
+            <h3>Contact</h3>
+            <form class="col s12">
 
-        <div class="fixed-action-btn click-to-toggle">
-            <a class="btn-floating btn-large blue">
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                </div>
+            
+                <button class="btn" type="submit">Submit</button>
+            </form>    
+        </section> <!-- End contact -->
+
+        <div id="Social" class="fixed-action-btn click-to-toggle">
+            <a class="btn-floating btn-large yellow">
                 <i class="fa fa-user-o"></i>
             </a>
             <ul>
                 <li><a class="btn-floating grey" href="https://github.com/simeon979"><i class="fa fa-github"></i></a></li>
                 <li><a class="btn-floating green" href="https://freecodecamp.com/simeon979"><i class="fa fa-free-code-camp"></i></a></li>
             </ul>
-        </div>
+        </div> <!-- End Social -->
+
+        <footer class="page-footer blue">
+            <div class="footer-copyright">
+                Built by Simeon &copy
+            </div>
+        </footer>
+
     </body>
 
 </html>

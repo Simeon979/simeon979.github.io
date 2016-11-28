@@ -3,6 +3,7 @@ $grey : grey;
 
 body {
     background-color: lightskyblue;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -20,6 +21,9 @@ p {
     }
 }
 
+.input-field label {
+    color: white;
+}
 .fa-github:hover {
     background-color: darken($grey, 20%);
 }
