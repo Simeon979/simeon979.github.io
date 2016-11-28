@@ -1,3 +1,6 @@
+$green : green;
+$grey : grey;
+
 body {
     background-color: lightskyblue;
 }
@@ -15,4 +18,12 @@ p {
         width: 100% !important;
         height: auto;
     }
+}
+
+.fa-github:hover {
+    background-color: darken($grey, 20%);
+}
+
+.fa-free-code-camp:hover {
+    background-color: darken($green, 5%);
 }

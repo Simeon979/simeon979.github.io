@@ -13,4 +13,10 @@ p {
     width: 100% !important;
     height: auto; }
 
+.fa-github:hover {
+  background-color: #4d4d4d; }
+
+.fa-free-code-camp:hover {
+  background-color: #006700; }
+
 /*# sourceMappingURL=style.css.map */
